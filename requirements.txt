@@ -1,0 +1,29 @@
+# --- Streamlit UI ---
+streamlit==1.52.1
+
+# --- Core scientific stack ---
+numpy==1.26.4
+pandas
+pillow
+
+# --- OpenCV (must match numpy) ---
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
+
+# --- Face recognition (ONNX, SVM, ResNet, RetinaFace, ArcFace) ---
+onnxruntime==1.17.0
+scikit-learn==1.3.2
+joblib
+
+# --- PyTorch + TorchVision (compatible version for YOLOv8) ---
+torch==2.1.2
+torchvision==0.16.2
+
+# --- YOLOv8 ---
+ultralytics==8.1.0
+
+# --- QR Code ---
+qrcode==7.4.2
+
+# --- Utilities ---
+python-dateutil==2.8.2
